@@ -1,0 +1,18 @@
+{
+  "comment": "Ficheiros em Downloads (ou ITRACK_IMPORT_DIR).",
+  "sets": [
+    { "file": "Ottawadata.json", "area": "Data", "region": "kanata", "loc": "ottawa_metro" },
+    { "file": "OttawaCloud.json", "area": "Cloud", "region": "ottawa", "loc": "ottawa_metro" },
+    { "file": "OttawaCyber.json", "area": "Cybersecurity", "region": "ottawa", "loc": "ottawa_metro" },
+    { "file": "OttawaBack.json", "area": "Back-End", "region": "ottawa", "loc": "ottawa_metro" },
+    { "file": "OttawaFullstack.json", "area": "Full-Stack", "region": "ottawa", "loc": "ottawa_metro" },
+    { "file": "OttawaFront.json", "area": "Front-End", "region": "ottawa", "loc": "ottawa_metro" },
+    { "file": "OttawaQuality Assurance.json", "area": "Quality Assurance", "region": "ottawa", "loc": "ottawa_metro" },
+    { "file": "gatineauQuality Assurance.json", "area": "Quality Assurance", "region": "gatineau", "loc": "gatineau_metro" },
+    { "file": "GatineunCybersecurity.json", "area": "Cybersecurity", "region": "gatineau", "loc": "gatineau_metro" },
+    { "file": "GatineunBack.json", "area": "Back-End", "region": "gatineau", "loc": "gatineau_metro" },
+    { "file": "GatineunFront.json", "area": "Front-End", "region": "gatineau", "loc": "gatineau_metro" },
+    { "file": "GatineunFull-stack.json", "area": "Full-Stack", "region": "gatineau", "loc": "gatineau_metro" },
+    { "file": "GatineunCloud.json", "area": "Cloud", "region": "gatineau", "loc": "gatineau_metro" }
+  ]
+}

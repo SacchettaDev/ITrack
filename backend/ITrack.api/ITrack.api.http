@@ -1,0 +1,6 @@
+@ITrack.api_HostAddress = http://localhost:5106
+
+GET {{ITrack.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
