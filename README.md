@@ -4,9 +4,11 @@ Full-stack tech market dashboard for Ottawa/Gatineau/Kanata.
 
 This repository contains:
 - `frontend`: React + Vite dashboard UI
-- `backend`: ASP.NET Core API (`ITrack.api`)
+- `backend`: C# ASP.NET Core API (`ITrack.api`)
 - `data-pipeline`: Python pipeline to ingest curated/scraped jobs into PostgreSQL (`job_snapshot`)
 
+Live: https://itrack.sacchetta.dev
+*Home Made Linux Server*
 ## Architecture
 
 ```text
@@ -31,8 +33,7 @@ cd backend/ITrack.api
 dotnet run
 ```
 
-Default local URL:
-- `http://localhost:5106`
+
 
 ### 2) Start frontend
 
@@ -43,7 +44,7 @@ npm run dev
 ```
 
 Open:
-- [http://localhost:5173](http://localhost:5173)
+- https://itrack.sacchetta.dev/
 
 The frontend uses `/api/market` and Vite proxy routes `/api/*` to `http://localhost:5106`.
 
