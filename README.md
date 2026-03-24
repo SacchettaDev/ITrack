@@ -44,7 +44,7 @@ npm run dev
 ```
 
 Open:
-- https://itrack.sacchetta.dev/
+- http://localhost:5173
 
 The frontend uses `/api/market` and Vite proxy routes `/api/*` to `http://localhost:5106`.
 
